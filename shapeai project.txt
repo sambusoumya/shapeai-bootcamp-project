@@ -1,0 +1,9 @@
+import hashlib
+string =v"pythonpool.com"
+encoded=String.encode()
+result = hashlib.md5(encoded)
+print("String : ", end ="")
+print(string)
+print("Hash Value : ", end ="")
+print(result)
+print("Hexadecimal equivalent: ",result.hexdigest())
